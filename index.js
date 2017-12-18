@@ -31,3 +31,4 @@ function appendKitten(name) {
   const a = kittens.push(name);
   return a
 }
+appendKitten(Broom)
