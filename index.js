@@ -6,7 +6,7 @@ const kittens = ['Milo', 'Otis', 'Garfield'];
       destructivelyAppendKitten('Ralph')
       expect(window.kittens).toEqual(["Milo", "Otis", "Garfield", "Ralph"])*/
       
-function destructivelyAppendKitte(name){
+function destructivelyAppendKitten(name){
 kittens.push(name)
 return kittens
 }
