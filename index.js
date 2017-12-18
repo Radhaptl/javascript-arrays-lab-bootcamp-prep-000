@@ -20,14 +20,11 @@ function destructivelyRemoveFirstKitten(){
   kittens.shift()
   return kittens
 }
-/*  describe('appendKitten(name)', function() {
-    it('appends a kitten to the kittens array and returns a new array, leaving the kittens array unchanged', function() {
-      expect(appendKitten("Broom")).toEqual(["Milo", "Otis", "Garfield", "Broom"])
 
-      expect(window.kittens).toEqual(["Milo", "Otis", "Garfield"])
-    })
-  })*/
 function appendKitten(name) {
   return [...kittens, name]
 }
-appendKitten(Broom)
+
+function prependKitten(name) {
+  return [name, ...kittens]
+}
